@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+*{
+    font-family: 'Jost', sans-serif;
+}
+nav {
+    background-color: #1E4B27;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav a {
+    color: #EACC22;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #1E3923;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li.logout {
+    margin-left: auto;
+}
+
+nav li.logout a {
+    background-color: #EACC22;
+    color: #1E4B27;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav li.logout a:hover {
+    background-color: #1E4B27;
+    color: #EACC22;
+    cursor: pointer;
+}
+
+.contain {
+    display: flex;
+    color:#EAC81F;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col p {
+    color: #EAC81F;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+col .card {
+    background: rgba(198, 210, 79, 0.72);
+  }
+  
+  .custom-footer {
+    background-color: #1E4B27;
+    color: #EACC22;
+    padding: 20px;
+    text-align: center;
+  }
+  #judul {
+    font-weight: 700;
+    color: #EACC22;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  } 
+  /* inputan form */
+  .input-box{
+    width: 330px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+}
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+}
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+.input-field .input:focus, .input-field .input:valid{
+    border-bottom: 1px solid #1E3A24;
+}
+ 
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+  
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+.dropdown{
+    color:#EACC22;
+}
+
+ul .dropdown-menu{
+    background-color: #EACC22;
+}
+/* img small */
+.img-small {
+    max-width: 300;
+    max-height: 300px;
+  }
+  
